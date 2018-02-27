@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0427699B559682A2092C590B647D14FF /* WebBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D4AC5682293AABE8E22298B8C6E090 /* WebBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07569C7F8015B8D7810C900D48DDBFF6 /* ToolbarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7421E73A6804E074BACEA76363A9C /* ToolbarAppearance.swift */; };
+		14EBD637E75760C6349E1444EED58801 /* WebBrowser.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8DD21C2CDCBCF5BDFC0BDAE8C151DB /* WebBrowser.xcassets */; };
+		1EE6BC3F4735A177BBCB4225E46B4802 /* SafariActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF24FD5B6A5C16656B4275249554B0D /* SafariActivity.swift */; };
+		22559A3FDD1C9EFAEDD5A353BB14DB67 /* WebBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B2D4252C97E170CA1C0F8696E28A1 /* WebBrowserDelegate.swift */; };
+		2543866EFC87AF3C290D361C8D2C6563 /* WebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D4954DFC8E6C736E3394BBDD3E3499 /* WebBrowserViewController.swift */; };
+		25FEA3981DFE7C3BCB04BE4183B74456 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C4DA487A3CDF60A6EE88F4BA03133565 /* ja.lproj */; };
+		33F1D236AD7EECBAEED0FE1467241C2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		3E69FAD2E7F8657BC5A3E360384E9B60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		41B94FF45E8D9F624951F0A0CC00AA57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		46E2AE42E5B988B9D14463CE422A9763 /* Pods-intercom-test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAAFB98C05ECA709149024660C2EFEF /* Pods-intercom-test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B6897A510A4E8CB843F09EE25793E3 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22E6D385334A3183CF84985504F36C93 /* zh-Hans.lproj */; };
+		80702BCA4CD3C657566A1A3ADA894322 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7AC5ECB6DF13850E49898B04023D5663 /* ko.lproj */; };
+		8250B394D18EDBCC38F32E9F50B80AC2 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 55F3C001880B53725A8050A1EA13D887 /* zh-Hant.lproj */; };
+		89D875F3F279C6C479F349D0E52C03C2 /* WebBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C78F6D43DC9211C683C16DE36E7018CF /* WebBrowser-dummy.m */; };
+		8AAE12D41CE1B9205694343A3A794CA8 /* InternationalControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64CB4F16A2161B9477A3D3EB6C020B /* InternationalControl.swift */; };
+		9281E5E5AFF6C94E344897075A12118C /* NavigationBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EF1E399E525EB9E4D36D1BD3FCB39 /* NavigationBarAppearance.swift */; };
+		9CB8038C1918C9AC0BCA10AC664F2618 /* Pods-intercom-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1122DC0AB180D91093DE35EA85938643 /* Pods-intercom-test-dummy.m */; };
+		B4C0DBA9361135D3A88D52C1B1723ADA /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B4926A9CC47614B643F45669B36192A6 /* en.lproj */; };
+		BA2C9418D5AC20437AAB6ED6FE19E0D2 /* WebBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19BECBDCE514C215623714A6E969F9B0 /* WebBrowser.bundle */; };
+		FCA5C7DB7FD5683E89A2E61727EBE9BE /* WebBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661777FA6C9AA0751CD26DC7B21C16B /* WebBrowser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		032C465C2D3BD3222B0DE29CA5DEFB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA84E920EC3879FF480C1C754EDC353E;
+			remoteInfo = "WebBrowser-WebBrowser";
+		};
+		B6B25D50D713DC6AA52DD2EAF98BC2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB42DE55810610DD665309ECF26EF91;
+			remoteInfo = WebBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F7421E73A6804E074BACEA76363A9C /* ToolbarAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolbarAppearance.swift; path = WebBrowser/ToolbarAppearance.swift; sourceTree = "<group>"; };
+		0AAAE6CA5F2D6B81960B703EEF7654B6 /* WebBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebBrowser.xcconfig; sourceTree = "<group>"; };
+		0D539AB336C5C702341DDA60C9D45988 /* Pods_intercom_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_intercom_test.framework; path = "Pods-intercom-test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAAFB98C05ECA709149024660C2EFEF /* Pods-intercom-test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-intercom-test-umbrella.h"; sourceTree = "<group>"; };
+		1122DC0AB180D91093DE35EA85938643 /* Pods-intercom-test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-intercom-test-dummy.m"; sourceTree = "<group>"; };
+		184C1AEA837FB38E90EB8272B285C9B8 /* Intercom.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Intercom.bundle; path = Intercom/Intercom.framework/Versions/A/Resources/Intercom.bundle; sourceTree = "<group>"; };
+		19BECBDCE514C215623714A6E969F9B0 /* WebBrowser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WebBrowser.bundle; path = "WebBrowser-WebBrowser.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B2D4252C97E170CA1C0F8696E28A1 /* WebBrowserDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebBrowserDelegate.swift; path = WebBrowser/WebBrowserDelegate.swift; sourceTree = "<group>"; };
+		22E6D385334A3183CF84985504F36C93 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "WebBrowser/Resources/LocalizedStrings/zh-Hans.lproj"; sourceTree = "<group>"; };
+		3054B00065E17E7C9D5C01D3058EAF33 /* ICMUserAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICMUserAttributes.h; path = Intercom/Intercom.framework/Versions/A/Headers/ICMUserAttributes.h; sourceTree = "<group>"; };
+		4661777FA6C9AA0751CD26DC7B21C16B /* WebBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebBrowser.swift; path = WebBrowser/WebBrowser.swift; sourceTree = "<group>"; };
+		46D4954DFC8E6C736E3394BBDD3E3499 /* WebBrowserViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebBrowserViewController.swift; path = WebBrowser/WebBrowserViewController.swift; sourceTree = "<group>"; };
+		55F3C001880B53725A8050A1EA13D887 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "WebBrowser/Resources/LocalizedStrings/zh-Hant.lproj"; sourceTree = "<group>"; };
+		566EF1E399E525EB9E4D36D1BD3FCB39 /* NavigationBarAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarAppearance.swift; path = WebBrowser/NavigationBarAppearance.swift; sourceTree = "<group>"; };
+		57F9AA5402330BF255A2FDB847DDB2E8 /* Intercom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intercom.framework; path = Intercom/Intercom.framework; sourceTree = "<group>"; };
+		63A5B91381A0AA05E603F7CFB5B551F0 /* Pods-intercom-test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-intercom-test-frameworks.sh"; sourceTree = "<group>"; };
+		68C26378487B9381F8F4F044360B0FEA /* WebBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebBrowser.framework; path = WebBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A11FD021C0AE654436A3E0A146B2C5C /* IntercomTranslations.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IntercomTranslations.bundle; path = Intercom/Intercom.framework/Versions/A/Resources/IntercomTranslations.bundle; sourceTree = "<group>"; };
+		6E3AD36FFFD5D97F468F03B6CB185381 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F263D847EFA178D901686E82A6FD44 /* Intercom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Intercom.h; path = Intercom/Intercom.framework/Versions/A/Headers/Intercom.h; sourceTree = "<group>"; };
+		7832FA537F671DF372EA1B5AE54AB79B /* Pods-intercom-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-intercom-test.release.xcconfig"; sourceTree = "<group>"; };
+		7AC5ECB6DF13850E49898B04023D5663 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = WebBrowser/Resources/LocalizedStrings/ko.lproj; sourceTree = "<group>"; };
+		87EB548CAB9ACD75DE4D60117ECE287B /* WebBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebBrowser-prefix.pch"; sourceTree = "<group>"; };
+		8C370DF85DDC21E5A7E949A4D8FDA25F /* Pods-intercom-test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-intercom-test.modulemap"; sourceTree = "<group>"; };
+		8EF889D1F9BD9A9BD9E4C37EDE5048B2 /* Pods-intercom-test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-intercom-test-acknowledgements.plist"; sourceTree = "<group>"; };
+		92EA2964A2316EAD94B037BB45E9A5AD /* Pods-intercom-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-intercom-test.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD64CB4F16A2161B9477A3D3EB6C020B /* InternationalControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternationalControl.swift; path = WebBrowser/InternationalControl.swift; sourceTree = "<group>"; };
+		AFF24FD5B6A5C16656B4275249554B0D /* SafariActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariActivity.swift; path = WebBrowser/SafariActivity.swift; sourceTree = "<group>"; };
+		B18C5B0051148884E81E2DEDA0A7FE2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4926A9CC47614B643F45669B36192A6 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = WebBrowser/Resources/LocalizedStrings/en.lproj; sourceTree = "<group>"; };
+		B534ED38D78310E1C2551829D6B7596D /* Intercom+Experimental.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Intercom+Experimental.h"; path = "Intercom/Intercom.framework/Versions/A/Headers/Intercom+Experimental.h"; sourceTree = "<group>"; };
+		B5D4AC5682293AABE8E22298B8C6E090 /* WebBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebBrowser-umbrella.h"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C4DA487A3CDF60A6EE88F4BA03133565 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = WebBrowser/Resources/LocalizedStrings/ja.lproj; sourceTree = "<group>"; };
+		C78F6D43DC9211C683C16DE36E7018CF /* WebBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebBrowser-dummy.m"; sourceTree = "<group>"; };
+		CCFE0AC1707C0023148FB31CBB813E85 /* ResourceBundle-WebBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WebBrowser-Info.plist"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB04BB4A091A60F06651AA2AEAF84BFE /* Pods-intercom-test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-intercom-test-resources.sh"; sourceTree = "<group>"; };
+		EFB0FAD5AAAEB5729BA610A4AF2965D2 /* ICMCompany.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICMCompany.h; path = Intercom/Intercom.framework/Versions/A/Headers/ICMCompany.h; sourceTree = "<group>"; };
+		F47DA51AE651FD774A4FD344B34943FD /* WebBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WebBrowser.modulemap; sourceTree = "<group>"; };
+		F86C3E1028BD0CA697BE361428E6CBE8 /* Pods-intercom-test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-intercom-test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC8DD21C2CDCBCF5BDFC0BDAE8C151DB /* WebBrowser.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = WebBrowser.xcassets; path = WebBrowser/Resources/WebBrowser.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C41B151DE3B1DB36031EC5EDDB3D8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F1D236AD7EECBAEED0FE1467241C2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A841DEDFE8C38E5374E0701D87F4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B94FF45E8D9F624951F0A0CC00AA57 /* Foundation.framework in Frameworks */,
+				3E69FAD2E7F8657BC5A3E360384E9B60 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAACE19DEC4B66A6A77F857A914D2956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC1BA3B6EAE978D8F3E13E4874259B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57F9AA5402330BF255A2FDB847DDB2E8 /* Intercom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E84A8499C0C7DAF9F0E6D50F78AF3BA5 /* Pods */,
+				A2D9288AB709DC6FBB3D867AA34C4846 /* Products */,
+				A9B980ECE7FD8C24229A02E8281F7090 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FDBAAECDDF9FE77B40B2647047A0C14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4926A9CC47614B643F45669B36192A6 /* en.lproj */,
+				C4DA487A3CDF60A6EE88F4BA03133565 /* ja.lproj */,
+				7AC5ECB6DF13850E49898B04023D5663 /* ko.lproj */,
+				FC8DD21C2CDCBCF5BDFC0BDAE8C151DB /* WebBrowser.xcassets */,
+				22E6D385334A3183CF84985504F36C93 /* zh-Hans.lproj */,
+				55F3C001880B53725A8050A1EA13D887 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A2D9288AB709DC6FBB3D867AA34C4846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D539AB336C5C702341DDA60C9D45988 /* Pods_intercom_test.framework */,
+				19BECBDCE514C215623714A6E969F9B0 /* WebBrowser.bundle */,
+				68C26378487B9381F8F4F044360B0FEA /* WebBrowser.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A37CCF2C394556918A4262B72EADEF97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E3AD36FFFD5D97F468F03B6CB185381 /* Info.plist */,
+				CCFE0AC1707C0023148FB31CBB813E85 /* ResourceBundle-WebBrowser-Info.plist */,
+				F47DA51AE651FD774A4FD344B34943FD /* WebBrowser.modulemap */,
+				0AAAE6CA5F2D6B81960B703EEF7654B6 /* WebBrowser.xcconfig */,
+				C78F6D43DC9211C683C16DE36E7018CF /* WebBrowser-dummy.m */,
+				87EB548CAB9ACD75DE4D60117ECE287B /* WebBrowser-prefix.pch */,
+				B5D4AC5682293AABE8E22298B8C6E090 /* WebBrowser-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WebBrowser";
+			sourceTree = "<group>";
+		};
+		A9B980ECE7FD8C24229A02E8281F7090 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2FEA92F0C5B7A3460D088945E47FF22 /* Pods-intercom-test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AEACA6D4723159EC7FCB9E7B66103103 /* Intercom */ = {
+			isa = PBXGroup;
+			children = (
+				EFB0FAD5AAAEB5729BA610A4AF2965D2 /* ICMCompany.h */,
+				3054B00065E17E7C9D5C01D3058EAF33 /* ICMUserAttributes.h */,
+				77F263D847EFA178D901686E82A6FD44 /* Intercom.h */,
+				B534ED38D78310E1C2551829D6B7596D /* Intercom+Experimental.h */,
+				0CC1BA3B6EAE978D8F3E13E4874259B5 /* Frameworks */,
+				FAEAB789714D5C771E1F5964B214B288 /* Resources */,
+			);
+			name = Intercom;
+			path = Intercom;
+			sourceTree = "<group>";
+		};
+		CE90159CC5E491348954123467A205C3 /* WebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AD64CB4F16A2161B9477A3D3EB6C020B /* InternationalControl.swift */,
+				566EF1E399E525EB9E4D36D1BD3FCB39 /* NavigationBarAppearance.swift */,
+				AFF24FD5B6A5C16656B4275249554B0D /* SafariActivity.swift */,
+				04F7421E73A6804E074BACEA76363A9C /* ToolbarAppearance.swift */,
+				4661777FA6C9AA0751CD26DC7B21C16B /* WebBrowser.swift */,
+				211B2D4252C97E170CA1C0F8696E28A1 /* WebBrowserDelegate.swift */,
+				46D4954DFC8E6C736E3394BBDD3E3499 /* WebBrowserViewController.swift */,
+				7FDBAAECDDF9FE77B40B2647047A0C14 /* Resources */,
+				A37CCF2C394556918A4262B72EADEF97 /* Support Files */,
+			);
+			name = WebBrowser;
+			path = WebBrowser;
+			sourceTree = "<group>";
+		};
+		E2FEA92F0C5B7A3460D088945E47FF22 /* Pods-intercom-test */ = {
+			isa = PBXGroup;
+			children = (
+				B18C5B0051148884E81E2DEDA0A7FE2A /* Info.plist */,
+				8C370DF85DDC21E5A7E949A4D8FDA25F /* Pods-intercom-test.modulemap */,
+				F86C3E1028BD0CA697BE361428E6CBE8 /* Pods-intercom-test-acknowledgements.markdown */,
+				8EF889D1F9BD9A9BD9E4C37EDE5048B2 /* Pods-intercom-test-acknowledgements.plist */,
+				1122DC0AB180D91093DE35EA85938643 /* Pods-intercom-test-dummy.m */,
+				63A5B91381A0AA05E603F7CFB5B551F0 /* Pods-intercom-test-frameworks.sh */,
+				EB04BB4A091A60F06651AA2AEAF84BFE /* Pods-intercom-test-resources.sh */,
+				0EAAFB98C05ECA709149024660C2EFEF /* Pods-intercom-test-umbrella.h */,
+				92EA2964A2316EAD94B037BB45E9A5AD /* Pods-intercom-test.debug.xcconfig */,
+				7832FA537F671DF372EA1B5AE54AB79B /* Pods-intercom-test.release.xcconfig */,
+			);
+			name = "Pods-intercom-test";
+			path = "Target Support Files/Pods-intercom-test";
+			sourceTree = "<group>";
+		};
+		E84A8499C0C7DAF9F0E6D50F78AF3BA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEACA6D4723159EC7FCB9E7B66103103 /* Intercom */,
+				CE90159CC5E491348954123467A205C3 /* WebBrowser */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAEAB789714D5C771E1F5964B214B288 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				184C1AEA837FB38E90EB8272B285C9B8 /* Intercom.bundle */,
+				6A11FD021C0AE654436A3E0A146B2C5C /* IntercomTranslations.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2567EB854ADEB4588B783FDD284E8E9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0427699B559682A2092C590B647D14FF /* WebBrowser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC0060465606A0B6DFE9B8FA0E23F1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E2AE42E5B988B9D14463CE422A9763 /* Pods-intercom-test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4724C9D05D4B24889B2A3587B1BB2888 /* Pods-intercom-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB82F01D309490E0E78550A49F1F22BD /* Build configuration list for PBXNativeTarget "Pods-intercom-test" */;
+			buildPhases = (
+				9F23862AB7CCCBE5BAAC8B2101E07BCB /* Sources */,
+				0C41B151DE3B1DB36031EC5EDDB3D8B4 /* Frameworks */,
+				4FC0060465606A0B6DFE9B8FA0E23F1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806FAED95040FDB799ABF6B84228F2E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-intercom-test";
+			productName = "Pods-intercom-test";
+			productReference = 0D539AB336C5C702341DDA60C9D45988 /* Pods_intercom_test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA84E920EC3879FF480C1C754EDC353E /* WebBrowser-WebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E03F762633A0B90E974570CA22C43E3D /* Build configuration list for PBXNativeTarget "WebBrowser-WebBrowser" */;
+			buildPhases = (
+				259503398E2BB0DF21FB5558F50933F5 /* Sources */,
+				CAACE19DEC4B66A6A77F857A914D2956 /* Frameworks */,
+				C6CCFDCC8716591C2A5E7BFDAA86C519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebBrowser-WebBrowser";
+			productName = "WebBrowser-WebBrowser";
+			productReference = 19BECBDCE514C215623714A6E969F9B0 /* WebBrowser.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FCB42DE55810610DD665309ECF26EF91 /* WebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDF2A849E8C12CF546A1F0DED60C87C /* Build configuration list for PBXNativeTarget "WebBrowser" */;
+			buildPhases = (
+				30381812108FA5C2A38B5897374957C0 /* Sources */,
+				52A841DEDFE8C38E5374E0701D87F4A1 /* Frameworks */,
+				E7DB3FA276BB851F7796490C8D7D2ED9 /* Resources */,
+				2567EB854ADEB4588B783FDD284E8E9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC07D7994F9BAF1497AE1143A407F52 /* PBXTargetDependency */,
+			);
+			name = WebBrowser;
+			productName = WebBrowser;
+			productReference = 68C26378487B9381F8F4F044360B0FEA /* WebBrowser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A2D9288AB709DC6FBB3D867AA34C4846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4724C9D05D4B24889B2A3587B1BB2888 /* Pods-intercom-test */,
+				FCB42DE55810610DD665309ECF26EF91 /* WebBrowser */,
+				FA84E920EC3879FF480C1C754EDC353E /* WebBrowser-WebBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6CCFDCC8716591C2A5E7BFDAA86C519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C0DBA9361135D3A88D52C1B1723ADA /* en.lproj in Resources */,
+				25FEA3981DFE7C3BCB04BE4183B74456 /* ja.lproj in Resources */,
+				80702BCA4CD3C657566A1A3ADA894322 /* ko.lproj in Resources */,
+				14EBD637E75760C6349E1444EED58801 /* WebBrowser.xcassets in Resources */,
+				71B6897A510A4E8CB843F09EE25793E3 /* zh-Hans.lproj in Resources */,
+				8250B394D18EDBCC38F32E9F50B80AC2 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7DB3FA276BB851F7796490C8D7D2ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2C9418D5AC20437AAB6ED6FE19E0D2 /* WebBrowser.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259503398E2BB0DF21FB5558F50933F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30381812108FA5C2A38B5897374957C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAE12D41CE1B9205694343A3A794CA8 /* InternationalControl.swift in Sources */,
+				9281E5E5AFF6C94E344897075A12118C /* NavigationBarAppearance.swift in Sources */,
+				1EE6BC3F4735A177BBCB4225E46B4802 /* SafariActivity.swift in Sources */,
+				07569C7F8015B8D7810C900D48DDBFF6 /* ToolbarAppearance.swift in Sources */,
+				89D875F3F279C6C479F349D0E52C03C2 /* WebBrowser-dummy.m in Sources */,
+				FCA5C7DB7FD5683E89A2E61727EBE9BE /* WebBrowser.swift in Sources */,
+				22559A3FDD1C9EFAEDD5A353BB14DB67 /* WebBrowserDelegate.swift in Sources */,
+				2543866EFC87AF3C290D361C8D2C6563 /* WebBrowserViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F23862AB7CCCBE5BAAC8B2101E07BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB8038C1918C9AC0BCA10AC664F2618 /* Pods-intercom-test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AC07D7994F9BAF1497AE1143A407F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WebBrowser-WebBrowser";
+			target = FA84E920EC3879FF480C1C754EDC353E /* WebBrowser-WebBrowser */;
+			targetProxy = 032C465C2D3BD3222B0DE29CA5DEFB31 /* PBXContainerItemProxy */;
+		};
+		806FAED95040FDB799ABF6B84228F2E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebBrowser;
+			target = FCB42DE55810610DD665309ECF26EF91 /* WebBrowser */;
+			targetProxy = B6B25D50D713DC6AA52DD2EAF98BC2F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FE21282E0B691D1ED90FCE8BF573C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAAE6CA5F2D6B81960B703EEF7654B6 /* WebBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WebBrowser";
+				INFOPLIST_FILE = "Target Support Files/WebBrowser/ResourceBundle-WebBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WebBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		299FE6C58DBE555BA78CC7B5D60FE915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92EA2964A2316EAD94B037BB45E9A5AD /* Pods-intercom-test.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-intercom-test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-intercom-test/Pods-intercom-test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_intercom_test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49B5A78DBE571998053070754D3695E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		681963EBB8A946043BEB9811E2B1285F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAAE6CA5F2D6B81960B703EEF7654B6 /* WebBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WebBrowser/WebBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WebBrowser/WebBrowser.modulemap";
+				PRODUCT_NAME = WebBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD369323FD85CB26347C0D75C75D837F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EDB60C456CC738030937534D7B9F2A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAAE6CA5F2D6B81960B703EEF7654B6 /* WebBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WebBrowser/WebBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WebBrowser/WebBrowser.modulemap";
+				PRODUCT_NAME = WebBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7EDEA1CD69712599AAB667A0B74088B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7832FA537F671DF372EA1B5AE54AB79B /* Pods-intercom-test.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-intercom-test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-intercom-test/Pods-intercom-test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_intercom_test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC7314CBAF1651063D4CF5123DA767EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAAE6CA5F2D6B81960B703EEF7654B6 /* WebBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WebBrowser";
+				INFOPLIST_FILE = "Target Support Files/WebBrowser/ResourceBundle-WebBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WebBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DDF2A849E8C12CF546A1F0DED60C87C /* Build configuration list for PBXNativeTarget "WebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB60C456CC738030937534D7B9F2A88 /* Debug */,
+				681963EBB8A946043BEB9811E2B1285F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD369323FD85CB26347C0D75C75D837F /* Debug */,
+				49B5A78DBE571998053070754D3695E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB82F01D309490E0E78550A49F1F22BD /* Build configuration list for PBXNativeTarget "Pods-intercom-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299FE6C58DBE555BA78CC7B5D60FE915 /* Debug */,
+				F7EDEA1CD69712599AAB667A0B74088B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03F762633A0B90E974570CA22C43E3D /* Build configuration list for PBXNativeTarget "WebBrowser-WebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FE21282E0B691D1ED90FCE8BF573C30 /* Debug */,
+				FC7314CBAF1651063D4CF5123DA767EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

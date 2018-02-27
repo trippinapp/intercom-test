@@ -1,0 +1,15 @@
+PODS:
+  - Intercom (4.1.9)
+  - WebBrowser (0.1.0)
+
+DEPENDENCIES:
+  - Intercom
+  - WebBrowser (~> 0.1)
+
+SPEC CHECKSUMS:
+  Intercom: c69c28474ffc9bf99cce5a7c25f515aad3796944
+  WebBrowser: 47c8e1922983dfe68e8c97d524b7d525c037f266
+
+PODFILE CHECKSUM: 7d371091dd73ef90b53a156b226b2e6fb92b85a2
+
+COCOAPODS: 1.4.0
