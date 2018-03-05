@@ -38,6 +38,11 @@ class ViewController: UIViewController {
   @IBAction func travelHelper(_ sender: Any) {
     Intercom.presentMessenger()
   }
+    
+    @IBAction func helperButtonPressed(_ sender: Any) {
+        Intercom.presentMessenger()
+    }
+    
   
   override func didReceiveMemoryWarning() {
        super.didReceiveMemoryWarning()

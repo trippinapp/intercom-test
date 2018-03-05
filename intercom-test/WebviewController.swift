@@ -14,7 +14,12 @@ class WebviewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    let url = URL(string:"https://www.google.com")
+    let url = URL(string:"https://www.reservationdesk.com")
     self.webView.loadRequest(URLRequest(url:url!))
   }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
 }
