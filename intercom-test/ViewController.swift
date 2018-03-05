@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Intercom.setLauncherVisible(true)
+        //Intercom.setLauncherVisible(true)
     }
     
     @IBAction func GoButtonPressed(_ sender: Any) {
@@ -35,7 +35,11 @@ class ViewController: UIViewController {
     }
     
 
-    override func didReceiveMemoryWarning() {
+  @IBAction func travelHelper(_ sender: Any) {
+    Intercom.presentMessenger()
+  }
+  
+  override func didReceiveMemoryWarning() {
        super.didReceiveMemoryWarning()
     }
 }
