@@ -34,7 +34,6 @@ class ViewController: UIViewController {
         ExplainerScreen.isHidden = true
     }
     
-
   @IBAction func travelHelper(_ sender: Any) {
     Intercom.presentMessenger()
   }
@@ -42,7 +41,6 @@ class ViewController: UIViewController {
     @IBAction func helperButtonPressed(_ sender: Any) {
         Intercom.presentMessenger()
     }
-    
   
   override func didReceiveMemoryWarning() {
        super.didReceiveMemoryWarning()

@@ -12,6 +12,7 @@
 		234EE18E203B8F3A0074FB98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234EE18C203B8F3A0074FB98 /* Main.storyboard */; };
 		234EE190203B8F3A0074FB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234EE18F203B8F3A0074FB98 /* Assets.xcassets */; };
 		234EE193203B8F3A0074FB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234EE191203B8F3A0074FB98 /* LaunchScreen.storyboard */; };
+		23698461204DD52C00F0172A /* WebKitviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23698460204DD52C00F0172A /* WebKitviewController.swift */; };
 		3FBD436CD70D1E69769E341B /* Pods_intercom_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9EEC558F056A6111736A1A /* Pods_intercom_test.framework */; };
 		E03F2414204CF04600825105 /* WebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03F2413204CF04600825105 /* WebviewController.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 		234EE18F203B8F3A0074FB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		234EE192203B8F3A0074FB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		234EE194203B8F3A0074FB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23698460204DD52C00F0172A /* WebKitviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitviewController.swift; sourceTree = "<group>"; };
 		8ACA178E867BD2BF08B98EAC /* Pods-intercom-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intercom-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-intercom-test/Pods-intercom-test.release.xcconfig"; sourceTree = "<group>"; };
 		8D0426F6961852C3DD3AC8CE /* Pods-intercom-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intercom-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-intercom-test/Pods-intercom-test.debug.xcconfig"; sourceTree = "<group>"; };
 		AD9EEC558F056A6111736A1A /* Pods_intercom_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_intercom_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 				234EE191203B8F3A0074FB98 /* LaunchScreen.storyboard */,
 				234EE194203B8F3A0074FB98 /* Info.plist */,
 				E03F2413204CF04600825105 /* WebviewController.swift */,
+				23698460204DD52C00F0172A /* WebKitviewController.swift */,
 			);
 			path = "intercom-test";
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			files = (
 				234EE18B203B8F3A0074FB98 /* ViewController.swift in Sources */,
 				E03F2414204CF04600825105 /* WebviewController.swift in Sources */,
+				23698461204DD52C00F0172A /* WebKitviewController.swift in Sources */,
 				234EE189203B8F3A0074FB98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
